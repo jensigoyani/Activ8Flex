@@ -1,0 +1,194 @@
+/* CONTACT USER */
+.mainContact {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #064242;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.contentContact {
+  position: relative;
+  z-index: 1;
+  height: 167px;
+  top: 245px;
+}
+
+.contentContact h1 {
+  height: 66px;
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+
+.mainContact:before {
+  content: "";
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../assets/ACTIV8FLEX/ACTIV8FLEX_CONTACTUS.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.9;
+}
+
+.contact-map {
+  width: 100%;
+}
+
+.main-contact-div {
+  display: flex;
+  margin-top: 60px;
+}
+
+.first-contact-div {
+  width: 500px;
+  margin-right: 15px;
+}
+
+.first-contact-div h1 {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.table-ins {
+	width: 95%;
+}
+
+.phone {
+  display: flex;
+  position: relative;
+  margin-left: 168px;
+  margin-bottom: 50px;
+}
+
+.phone-vector {
+  position: absolute;
+  margin-left: -36px;
+  margin-top: 13px;
+}
+
+.email-vector {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 11px;
+}
+
+.contact-no {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.second-div-contact {
+  margin-left: 80px;
+}
+
+.second-div-contact h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 35px;
+}
+
+.second-div-contact-text {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.text-contact {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.contact-us-email .email-contact {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+.textarea-contact {
+  width: 725px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-submit-contact {
+  max-width: 100%;
+  width: 25%;
+  height: 50px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 61px;
+  background-color: rgb(6 66 66);
+  transition: 1s;
+  cursor: pointer;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainContact {
+    height: auto;
+  }
+
+  .contentContact {
+    top: 20px;
+  }
+
+  .mainContact:before {
+    height: 350px;
+  }
+
+  .first-contact-div {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .phone {
+    margin-left: 0;
+  }
+
+  .second-div-contact {
+    margin-left: 0;
+  }
+
+  .text-contact,
+  .email-contact {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .btn-submit-contact {
+    width: 50%;
+  }
+}

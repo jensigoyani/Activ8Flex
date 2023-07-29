@@ -1,0 +1,171 @@
+.mainClasses {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.overlayClasses {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #064242;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.contentClasses {
+  position: relative;
+  z-index: 1;
+  height: 167px;
+  width: 100%;
+  top: 146px;
+}
+
+.contentClasses h1 {
+  height: 66px;
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+  padding-top: 71px;
+}
+
+.mainClasses:before {
+  content: "";
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/ACTIV8FLEX/CLASSES_BACKGROUND.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.5;
+}
+/* tabs  */
+
+.classesTab .ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0px 0px 0px 490px;
+  gap: 100px;
+  text-align: center;
+}
+
+.classesTab h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  padding: 50px;
+}
+
+.classesTab .ul li {
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  /* transition: 5s; */
+}
+
+.classesTab a {
+  color: #000;
+  text-decoration: none;
+}
+.classesTab .ul li.active a {
+  font-weight: 700;
+}
+.classesTab a:active {
+  font-weight: 700;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 95px;
+}
+.VideoSection {
+  width: 364px;
+  left: 537px;
+  top: 821px;
+  background: #fefefe;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+
+.VideoSection .videoURL {
+  width: 364px;
+  margin-bottom: 39px;
+  border-radius: 4px 4px 0px 0px;
+}
+.VideoSection .videoPlay {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background: #064242;
+  border-radius: 4px;
+  margin: 21px;
+}
+
+.VideoSection p {
+  height: 26px;
+  left: 157px;
+  top: 1548px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 21px;
+  margin-bottom: 34px;
+}
+
+.ClassesSection h2 {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: -120px;
+}
+
+.yogaclasses .pagination {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 5px 547px;
+  list-style: none;
+  padding: 15px;
+}
+.yogaclasses .pagination li{
+  padding: 10px;
+}
+
+.yogaclasses .pagination button {
+  width: 20px;
+  height: 20px;
+  /* left: 696px;
+  top: 2056px; */
+  border: 1px solid #8a8787;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainClasses {
+    height: 350px;
+  }
+
+  .contentClasses {
+    top: 86px;
+  }
+
+  .classesTab ul {
+    margin: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .classesTab ul li {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

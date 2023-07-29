@@ -1,0 +1,47 @@
+/* instructor */
+.list-instappointment {
+  display: table;
+  margin: 1em;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 230px;
+}
+
+.list-instappointment ul {
+  display: table-row;
+  color: rgb(6 66 66);
+  width: 100%;
+}
+
+.list-instappointment .ul-instructor {
+  display: table-row;
+  color: rgb(6 66 66);
+  width: 100%;
+  font-weight: 900;
+  display: table-row;
+}
+
+.list-instappointment ul>li {
+  display: table-cell;
+  padding: .6em 1em;
+}
+
+.searchbar-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.searchbar-app input {
+  width: 350px;
+  height: 42px;
+  border-radius: 25px;
+  background-color: #ededed;
+  padding: 0 20px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  margin-left: -100px;
+	border: 2px solid black;
+}

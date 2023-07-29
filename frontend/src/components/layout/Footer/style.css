@@ -1,0 +1,97 @@
+/* FOOTER */
+
+.footer-user {
+  height: 300px;
+  background-image: url("../../../assets/ACTIV8FLEX/FOOTER_BACKGORUND.png");
+  background-repeat: no-repeat;
+  background-position: 32rem;
+  background-color: rgb(6 66 66);
+  padding: 30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  max-width: 1519;
+  /* margin-top: 160px; */
+}
+
+footer {
+  /* position: absolute; */
+  left: 34.1%;
+  right: 35.97%;
+  top: 5.67%;
+  bottom: 4%;
+  /* background: ; */
+  /* opacity: 0.2; */
+}
+
+.footer-user .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  font-size: 0.8em;
+  color: #8f8f8f;
+}
+
+.footer-user .row a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-user .row a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-user .row ul {
+  width: 100%;
+}
+
+.footer-user .row ul li {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+.footer-user .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
+
+.hr-footer {
+  width: 1356px;
+  color: #8f8f8f;
+  margin-left: 60px;
+}
+
+@media (max-width:720px) {
+  .footer-user {
+    text-align: left;
+    padding: 5%;
+  }
+
+  .footer-user .row ul li {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+  }
+
+  .footer-user .row a i {
+    margin: 0% 3%;
+  }
+}
+
+.fa-instagram {
+  color: rgb(255, 255, 255)
+}
+
+.fa-facebook {
+  color: rgb(255, 255, 255)
+}
+
+.fa-youtube {
+  color: rgb(255, 255, 255)
+}
+
+.fa-twitter {
+  color: rgb(255, 255, 255)
+}

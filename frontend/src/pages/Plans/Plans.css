@@ -1,0 +1,215 @@
+.mainMembership {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #064242;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.contentPlans {
+  position: relative;
+  z-index: 1;
+  height: 167px;
+  top: 200px;
+}
+
+.contentPlans h1 {
+  height: 66px;
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+
+.contentPlans p {
+  width: 745px;
+  height: 76px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  margin-left: 382px;
+}
+
+.mainMembership:before {
+  content: "";
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/ACTIV8FLEX/ACTIV8FLEX_MEMBERSHIP.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.9;
+}
+
+.button-div {
+  width: 340px;
+  height: 50px;
+  margin-left: 570px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #DCB68D;
+  padding: 5px;
+}
+
+.monthly {
+  width: 168px;
+  height: 42px;
+  left: 563px;
+  top: 649px;
+  background: #064242;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.annually {
+  width: 71px;
+  height: 24px;
+  margin-left: 50px;
+  top: 658px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #064242;
+  letter-spacing: 1px;
+}
+
+.membership-quote {
+  width: 579px;
+  height: 52px;
+  margin-left: 431px;
+  top: 730px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+.main-box-div {
+  display: flex;
+  height: 652px;
+  top: 842px;
+}
+
+.box-monthly {
+  width: 350px;
+  margin-left: 365px;
+  margin-right: 30px;
+}
+
+.box-annually {
+  width: 350px;
+}
+
+.first-month-div {
+  border: 1px solid #8A8787;
+  height: 200px;
+  background-image: url("../../assets/ACTIV8FLEX/MEMBERSHIP_LEAF.png");
+  background-repeat: no-repeat;
+  background-color: rgb(6 66 66);
+  color: white;
+  background-position: right center;
+}
+
+.month-text {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.per-month-text {
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.month-button button {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 266px;
+  height: 50px;
+  margin-left: 40px;
+  top: 978px;
+  background: #DCB68D;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  color: #064242;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.second-month-div {
+  position: absolute;
+  width: 350px;
+  height: 370px;
+  margin-left: 0px;
+  margin-top: 1052px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.14);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.desc-month {
+  height: 26px;
+  left: 421px;
+  top: 1099px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.desc-month span {
+  letter-spacing: 4px;
+  margin-right: 20px;
+}
+
+.desc-month-cancel {
+  height: 26px;
+  left: 421px;
+  top: 1099px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #8A8787;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.desc-month-cancel span {
+  letter-spacing: 4px;
+  margin-right: 20px;
+}

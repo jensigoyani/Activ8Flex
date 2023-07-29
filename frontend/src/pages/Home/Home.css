@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+/* HOME */
+.main-home {
+    display: flex;
+    flex-direction: row;
+}
+
+#overlay {
+    position: absolute;
+    z-index: 100;
+    color: #fff;
+    margin-top: 78px;
+    font-size: 229px;
+}
+
+.bgimg {
+    position: sticky;
+    max-width: 100%;
+    max-height: 80%;
+    margin-bottom: 30px;
+    width: 1600px;
+    height: 650px;
+    background-color: rgb(6, 66, 66);
+}
+
+.text-ui {
+    color: rgb(6 66 66);
+}
+
+.text-home {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 180px;
+}
+
+.h1-home {
+    font-size: 60px;
+    margin-top: 20%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    width: 722px;
+}
+
+.p-home {
+    font-size: 23px;
+    /* letter-spacing: 1px; */
+    color: rgb(201, 190, 190);
+    width: 495px;
+    margin-bottom: 20px;
+    line-height: 35px;
+    margin-top: 5px;
+}
+
+.btn-trial {
+    max-width: 100%;
+    width: 38%;
+    height: 50px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 61px;
+    background-color: #DCB68D;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-trial:hover {
+    color: rgb(6, 66, 66);
+    transition: 1s;
+}
+
+.leaf {
+    margin-left: 50px;
+    position: absolute;
+    width: 605px;
+    top: 300px;
+    opacity: 0.2;
+    width: 605px;
+    background: #064242;
+}
+
+.hero-banner {
+    position: absolute;
+    width: 486.1px;
+    height: 485px;
+    left: 90.9px;
+    top: 125px;
+    transform: scaleX(-1);
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    text-align: left;
+    width: 80%;
+    height: 50%;
+    margin-left: 150px;
+    font-size: 25px;
+    margin-bottom: 100px;
+
+}
+
+.service-section {
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    color: rgb(6, 66, 66);
+    margin-bottom: 15px;
+}
+
+.service-section:hover {
+    background-color: rgb(6, 66, 66);
+    border-radius: 10px;
+    color: #fff;
+    transition: 1s;
+}
+
+.dot {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(6, 66, 66);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.h2-services {
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: -10px;
+    color: rgb(6 66 66);
+    height: 100px;
+    transition: 1s;
+}
+
+.service-p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    /* color: #000000; */
+    width: 345px;
+    height: 45px;
+    font-weight: 100;
+}
+
+#service-icon {
+    font-size: 40px;
+    margin-top: 30px;
+    color: white;
+    transition: 1s;
+}
+
+#service-text {
+    margin-top: 18px;
+    margin-bottom: -50px;
+    font-size: 18px;
+    height: 92px;
+    width: 346px;
+    font-weight: 700;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: var(--clr-primary-5);
+}
+
+
+/* ABOUT YOGA TRAINING */
+.yoga-training-main-div {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.about-yoga-leaf {
+    position: absolute;
+    width: 459px;
+    height: 335px;
+    left: 136px;
+    top: 2317px;
+    opacity: 0.5;
+}
+
+.about-yoga-train {
+    position: absolute;
+    width: 565px;
+    height: 500px;
+    left: 180px;
+    top: 2404px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.about-yoga-details {
+    margin-left: 820px;
+    margin-top: 130px;
+    color: rgb(6 66 66);
+}
+
+.about-yoga-details h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about-yoga-details h3 {
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: rgb(58, 57, 57);
+}
+
+.about-yoga-details h4 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-training {
+    max-width: 100%;
+    height: 50px;
+    width: 271px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-bottom: 130px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* margin-bottom: 61px; */
+    background-color: rgb(6, 66, 66);
+    color: white;
+    transition: 1s;
+}
+
+.btn-training:hover {
+    color: #DCB68D;
+    transition: 1s;
+}
+
+.Link-training {
+    text-decoration: none;
+    color: white;
+}
+
+/* INSTRUCTOR INTRO */
+.trainer-main-div {
+    background-color: rgb(246, 243, 243);
+    margin-top: 80px;
+    /* height: 450px; */
+}
+
+.trainer-main-div h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: rgb(6, 66, 66);
+}
+
+.trainer-main-div h3 {
+    line-height: 30px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.fa-caret-left {
+    font-size: 40px;
+    position: fixed;
+    color: rgb(6 66 66);
+}
+
+.fa-caret-right {
+    color: rgb(6 66 66);
+    font-size: 40px;
+    position: fixed;
+}
+
+/* APPOINTMENT */
+.appointment-main-div {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #F7F6F6;
+    /* width: 1600px; */
+    height: 650px;
+}
+
+.appointment-sec-div {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.appointment-sec-div h1 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: rgb(6 66 66);
+}
+
+.appointment-sec-div h3 {
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: rgb(58, 57, 57);
+}
+
+.appointment-sec-div h4 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-app {
+    max-width: 100%;
+    height: 50px;
+    width: 271px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* margin-bottom: 61px; */
+    background-color: rgb(6, 66, 66);
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-app:hover {
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+.appointment-leaf {
+    position: absolute;
+    width: 628px;
+    height: 433px;
+    left: 750px;
+    top: 1697px;
+    opacity: 0.5;
+}
+
+.appointment-img {
+    position: absolute;
+    width: 604px;
+    height: 456px;
+    left: 750px;
+    top: 1780px;
+}
+
+/* mq */
+
+@media screen and (max-width: 960px) {
+    .bgimg {
+        position: sticky;
+        max-width: 100%;
+        max-height: 90%;
+        margin-bottom: 30px;
+        transform: scaleX(-1);
+    }
+
+    .h1-home {
+        font-size: 30px;
+        margin-top: 10%;
+        color: rgb(0 46 46);
+        font-weight: 900;
+        width: 322px;
+    }
+
+    .text-home {
+        position: absolute;
+        margin-top: 56px;
+        margin-left: 20px;
+    }
+
+    .p-home {
+        font-size: 11px;
+        color: rgb(243, 239, 239);
+        width: 295px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .btn-trial {
+        font-size: 10px;
+        width: 70%;
+    }
+
+    .h2-services {
+        text-align: center;
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: rgb(6 66 66);
+        height: 50px;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+        text-align: left;
+        width: 70%;
+        margin-left: 15px;
+        height: 50%;
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+
+    #service-text {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        color: rgb(6 66 66);
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .service-p {
+        margin-bottom: 30px;
+        font-size: 13px;
+        color: #000000;
+    }
+
+    .appointment-sec-div {
+        margin-left: 25px;
+    }
+
+    .appointment-sec-div h1 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .appointment-main-div {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .appointment-sec-div h3 {
+        font-size: 15px;
+        width: 87%;
+    }
+
+    .appointment-sec-div h4 {
+        font-size: 13px;
+        width: 87%;
+    }
+
+    .btn-app {
+        font-size: 10px;
+        margin-top: 0px;
+        height: 30px;
+        width: 221px;
+    }
+
+    .appointment-img img {
+        margin-left: 30px;
+        margin-top: 50px;
+        height: 300px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .about-yoga-img img {
+        margin-left: 30px;
+        margin-top: 0px;
+        height: 300px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .yoga-training-main-div {
+        display: block;
+        flex-direction: row-reverse
+    }
+
+    .about-yoga-details {
+        margin-left: 30px;
+        margin-top: 30px;
+        color: rgb(6 66 66);
+    }
+
+    .about-yoga-details h1 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .about-yoga-details h3 {
+        font-size: 15px;
+    }
+
+    .about-yoga-details h4 {
+        vertical-align: baseline;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+}
+
+.fa-walking {
+    font-size: 10px;
+}
